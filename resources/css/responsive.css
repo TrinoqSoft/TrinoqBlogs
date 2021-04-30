@@ -1,0 +1,444 @@
+/*======================================================*/
+ /***  Responsive Style CSS   ***/
+/*=======================================================*/
+@media only screen and (min-width: 1920px) {
+
+  /*======== SUBSCRIBTION SECTION ============================*/
+  .subscribtion-section .flex-item h2 {
+    font-size: 6rem;
+  }
+
+}
+@media only screen and (max-width: 1440px) {
+
+
+}
+@media only screen and (max-width: 1200px) {
+  
+  .row{
+    width: 90%;
+  }
+ 
+
+}
+
+@media only screen and (max-width: 1024px) {
+  section, footer{
+    padding-top: 5rem;
+  }
+
+  /*======== HEADER SECTION ==============================*/
+  .header-section .row {
+    margin-top: 5rem;
+    padding: 0 2rem;
+  }
+
+  .header-section .sticky .row {
+    margin-top: 0rem;
+  }
+
+  .header-section .flex-container .main-nav,
+  .header-section .flex-container .account{
+     display: none;
+   }
+  /*======== MOBILE MENU ============================*/
+  .logo img {
+    width: 16rem;
+  }
+  .mobile-menu span{
+    display: block;
+  }
+  .logo {
+    margin: 0;
+  }
+  /*======== FEATURED SECTION ============================*/
+  
+  .featured-section .flex-item,
+  .Categories-section .flex-item {
+    flex: 21%;
+    max-width: 21%;
+    margin: 0 2%;
+    margin-top: 3rem;
+  }
+
+  .featured-section .flex-container .flex-item:nth-child(6) {
+    display: none;
+  }
+
+  /*======== LATEST POST SECTION =========================*/
+  .latest-post-section .flex-container {
+    align-items: flex-start;
+  }
+
+  /*======== POSTS SECTION ===============================*/
+  
+
+  /*======== CONTACT PAGE ===============================*/
+  
+  .contact-section{
+    padding-top: 4rem;
+  }
+
+  .contact-section .flex-container .flex-item {
+    flex: 100%;
+    max-width: 100%;
+    margin: 0;
+  }
+  .contact-section .square-photo {
+    width: 60%;
+    padding-top: 60%;
+    margin: 0 auto;
+  }
+  .contact-section .square-photo .square-photo-box {
+    padding: 3rem;
+  }
+
+
+  /*======== FOOTER SECTION ===============================*/
+  .footer-section .footer-column img{
+    width: 16rem;
+  }
+
+}
+
+@media only screen and (max-width: 1010px) {
+
+  /*======== SUBSCRIBTION SECTION ===============================*/
+  .subscribtion-section .flex-item h2 {
+    font-size: 5.5vw;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+
+  .subscribtion-section .flex-item:nth-child(1) {
+    text-align: left;
+    flex: 100%;
+    max-width: 100%;
+  }
+  .subscribtion-section .flex-item:nth-child(2) {
+    text-align: right;
+    flex: 100%;
+    max-width: 100%;
+  }
+  .subscribtion-section form .flex-container .email-box input {
+    width: 100%;
+    min-width: 100%;
+    background: #ffffff;
+    border: 0.1rem solid #ffffff;
+    color: #202040;
+  }
+  .subscribtion-section form .flex-container .email-box .btn-box .btn {
+    background: #202040;
+    color: #f2f4fb;
+  }
+
+  /*======== SUBSCRIBTION2 SECTION ===============================*/
+/* 
+  .subscribtion2-section .flex-item h2{
+    font-size: 4.5vw;
+    padding: 0 1.5rem;
+    margin: 0;
+  }
+  .subscribtion2-section .flex-item:nth-child(1){
+    text-align: left;
+    flex: 100%;
+    max-width: 100%;
+  }
+  .subscribtion2-section .flex-item:nth-child(2){
+    text-align: right;
+    flex: 100%;
+    max-width: 100%;
+  }
+  .subscribtion2-section form .flex-container .email-box {
+    width: 100%;
+    min-width: 100%;
+    background: #ffffff;
+    border: 0.1rem solid #ffffff;
+  }
+  .subscribtion2-section form .flex-container .email-box .email-input input{
+    background: #ffffff;
+    border: 0.1rem solid #ffffff;
+    color: #202040;
+  }
+  .subscribtion2-section form .flex-container .email-box .btn-box .btn{
+    background: #202040;
+    color: #f2f4fb;
+  } */
+
+}
+@media only screen and (max-width: 980px) {
+
+.featured-section, .contact-section, .search-section{
+  padding-top: 4rem;
+}
+  /*======== FEATURED SECTION ============================*/
+  .featured-section h2,
+  .Categories-section h2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+  }
+  .featured-section .flex-item,
+  .Categories-section .flex-item {
+    flex: 29%;
+    max-width: 29%;
+    margin: 0 2%;
+    margin-top: 3rem;
+  }
+  .featured-section .flex-container .flex-item:nth-child(6) {
+    display: block;
+  }
+  /* .featured-section .flex-container .flex-item:nth-child(7) {
+    display: block;
+  } */
+  /*======== LATEST POST SECTION =========================*/
+  
+  /*======== POSTS SECTION ===============================*/
+
+
+}
+
+@media only screen and (max-width: 768px) {
+
+  .row{
+    width: 95%;
+  }
+
+  .featured-section .flex-container,
+  .Categories-section .flex-container{
+    width: 90%;
+  }
+
+  .latest-post-section .flex-container,
+  .posts-section .flex-container,
+  .subscribtion-section form .flex-container,
+  .subscribtion2-section .flex-container,
+  .footer-section .flex-container {
+    width: 85%;
+  }
+
+  .featured-section, .contact-section, .search-section{
+    padding-top: 4rem;
+  }
+
+  /*======== HEADER SECTION ==============================*/
+
+
+  /*======== FEATURED SECTION ============================*/
+
+
+  /*======== LATEST POST SECTION =========================*/
+  .latest-post-section h2 {
+    position: inherit;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+  }
+  .latest-post-section .flex-item {
+    flex: 100%;
+    max-width: 100%;
+  }
+  /*======== POSTS SECTION ===============================*/
+  .posts-section .flex-item {
+    flex: 45%;
+    max-width: 45%;
+    margin: 0 2.5%;
+    margin-top: 4rem;
+  }
+  .posts-section .flex-item:nth-child(5) {
+    display: none;
+  }
+  .posts-section .flex-item .square-photo,
+  .posts-section .flex-item:nth-child(4) .square-photo,
+  .posts-section .flex-item:nth-child(5) .square-photo {
+    position: relative;
+    width: 100%;
+    padding-top: 80%;
+  }
+  /*======== SUBSCRIBTION SECTION ===============================*/
+  .subscribtion-section .flex-item h2 {
+    font-size: 6.5vw;
+  }
+  /*======== ALL POSTS PAGE ===============================*/
+  /*======== ALL POSTS SECTION ===============================*/
+  .posts-section .title{
+    width: 85%;
+  }
+  /*======== SINGLE POST PAGE ===============================*/
+  /*======== SINGLE POST SECTION ===============================*/
+  .single-post-section .flex-container,
+  .more-posts-section .flex-container{
+    width: 85%;
+  }
+
+  .single-post p,
+  .single-post h3{
+    width: 80%;
+    max-width: 80%;
+  }
+
+  /*======== MORE POSTS SECTION ===============================*/
+  
+  .more-posts-section .flex-item {
+    flex: 100%;
+    max-width: 100%;
+  }
+  .more-posts-section h2 {
+    position: inherit;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+  }
+}
+@media only screen and (max-width: 600px) {
+
+  .featured-section .flex-container,
+  .Categories-section .flex-container{
+    width: 98%;
+  }
+  .latest-post-section .flex-container,
+  .posts-section .flex-container,
+  .subscribtion-section form .flex-container,
+  .subscribtion2-section .flex-container,
+  .footer-section .flex-container {
+    width: 92%;
+  }
+
+  /*======== FEATURED SECTION ============================*/
+  .featured-section .flex-item,
+  .Categories-section .flex-item {
+    flex: 44%;
+    max-width: 44%;
+    margin: 0 3%;
+    margin-top: 3rem;
+  }
+  .featured-section .flex-container .flex-item:nth-child(6) {
+    display: none;
+  }
+  /*======== LATEST POST SECTION =========================*/
+  
+  /*======== POSTS SECTION ===============================*/
+
+  /*======== SUBSCRIBTION SECTION ===============================*/
+  .subscribtion-section .flex-item h2 {
+    font-size: 7vw;
+  }
+
+  /*======== FOOTER SECTION ===============================*/
+  .footer-section .flex-container .flex-item {
+    flex: 100%;
+    max-width: 100%;
+  }
+
+  /*======== CONTACT PAGE ===============================*/
+  /*======== CONTACT FORM SECTION ===============================*/
+  .contact-section .flex-container {
+    width: 90%;
+  }
+  .contact-section .square-photo {
+    width: 80%;
+    padding-top: 60%;
+  }
+  /*======== ALL POSTS PAGE ===============================*/
+  /*======== ALL POSTS SECTION ===============================*/
+  .posts-section .title{
+    width: 92%;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .row{
+    width: 100%;
+  }
+
+  /*======== FEATURED SECTION ============================*/
+
+  /*======== LATEST POST SECTION =========================*/
+
+  /*======== POSTS SECTION ===============================*/
+  .posts-section .flex-item,
+  .posts-section .flex-item:nth-child(4),
+  .posts-section .flex-item:nth-child(5) {
+    flex: 100%;
+    max-width: 100%;
+  }
+
+  .posts-section .flex-item .square-photo,
+  .posts-section .flex-item:nth-child(4) .square-photo,
+  .posts-section .flex-item:nth-child(5) .square-photo {
+    position: relative;
+    width: 100%;
+    padding-top: 100%;
+  }
+  /*======== SUBSCRIBTION SECTION ===============================*/
+  /* .subscribtion-section .flex-item h2 {
+    font-size: 5.5vw;
+  } */
+  .subscribtion-section form .flex-container .email-box input {
+    padding: 2rem 1.5rem;
+    padding-right: 13rem;
+    font-size: 2rem;
+  }
+  .subscribtion-section form .flex-container .email-box .btn-box .btn {
+    font-size: 2rem;
+  }
+
+  /*======== SUBSCRIBTION 2 SECTION ===============================*/
+  /* .subscribtion2-section .flex-item h2 {
+    font-size: 5.5vw;
+  }
+  .subscribtion2-section form .flex-container .email-box {
+    padding: 1rem;
+  }
+  .subscribtion2-section form .flex-container .email-box .email-input input {
+    font-size: 2rem;
+    padding: 1.5rem 0;
+    min-width: 11.2rem;
+  }
+  .subscribtion2-section form .flex-container .email-box .btn-box .btn {
+    font-size: 2rem;
+    padding: 1.5rem 1rem;
+  } */
+}
+@media only screen and (max-width: 380px) {
+
+  /*======== FEATURED SECTION ============================*/
+
+  /*======== LATEST POST SECTION =========================*/
+  
+  /*======== POSTS SECTION ===============================*/
+}
+@media only screen and (max-width: 320px) {
+
+  /*======== FEATURED SECTION ============================*/
+
+  /*======== LATEST POST SECTION =========================*/
+  
+  /*======== POSTS SECTION ===============================*/
+
+  /*======== SUBSCRIBTION 2 SECTION ===============================*/
+  .subscribtion2-section form .flex-container .email-box .email-input input {
+    font-size: 2rem;
+    padding: 1.5rem 0;
+    width: 11.2rem;
+  }
+}

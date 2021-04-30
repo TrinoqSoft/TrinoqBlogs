@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="An awesome portfolio html template. You can create your won website very esily by using this template."> 
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
+    <title>Trinoq Blogs | An awesome Blogs html template</title>
+    <link rel="shortcut icon" href="resources/img/favicon.png" type="image/x-icon"> 
+
+    <!-- Fonts -->
+    <link href="https://fonts.cdnfonts.com/css/gotham" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="resources/css/default.css">
+    <link rel="stylesheet" href="resources/css/style.css">
+    <link rel="stylesheet" href="resources/css/responsive.css">
+</head>
+<body>
+
+    <!-- START HEADER SECTION -->
+    <header class="header-section" id="home">
+        <nav>
+            <div class="row">
+                <div class="flex-container">
+                    <div class="flex-item main-nav">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="contact-page.html">Contact</a></li>
+                            <li><img src="resources/img/icons/dropdown-icon.svg" alt="">
+                                <ul>
+                                    <li><a href="all-posts-page.html">All Posts</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="flex-item logo">
+                        <a href="index.html"><img src="resources/img/logo.svg" alt="Trinoq Blogs"></a>
+                    </div>
+                    <div class="flex-item account">
+                        <img src="resources/img/icons/login-ico.svg" alt="">
+                        <a href="#">Sign In / Sign Up</a>
+                    </div>
+                </div>
+    <!-- MOBILE MENU -->
+                <div class="mobile-menu">
+                    <span onclick="openNav()"><img src="resources/img/icons/dropdown-icon.svg" alt=""></span>
+                    <div class="overlay" id="myNav">
+                        <a href="javascript:void(0)" onclick="closeNav()" class="close-nav">&times;</a>
+                        <div class="overlay-content">
+                            <a onclick="closeNav()" href="index.html">Home</a>
+                            <a onclick="closeNav()" href="contact-page.html">Contact</a>
+                            <a onclick="closeNav()" href="all-posts-page.html">All Posts</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- END HEADER SECTION -->
+
+    <!-- START STICKY HEADER SECTION -->
+    <div class="js--sticky-header">
+        <!-- No Contect  -->
+    </div>
+    <!-- END STICKY HEADER SECTION -->
+
+    <!-- START CONTACT SECTION -->
+    <section class="contact-section" id="contact-section">
+        <div class="row first-row">
+            <div class="flex-container">
+                <div class="flex-item box">
+                    <!-- Empty -->
+                </div>
+                <div class="flex-item box">
+                    <h2>Contact me</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row second-row">
+            <div class="flex-container">
+                <div class="flex-item box">
+                    <div class="square-photo">
+                        <div class="square-photo-box">
+                            <img src="resources/img/contact-pic.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-item box">
+                    <form action="ruhulamin.one0@gmail.com" method="post">
+                        <div class="contact-details">
+                            <input type="text" name="Name" placeholder="Your Name *" required>
+                            <input type="email" name="Email" placeholder="Your Email *" required>
+                            <textarea name="Message" cols="30" rows="3" placeholder="Your Message *" required></textarea>
+                            <input type="submit" value="Send Message" class="btn btn-submit">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+   
+    <!-- END CONTACT SECTION -->
+
+    <!-- START FOOTER SECTION -->
+    <footer class="footer-section">
+        <div class="row">
+            <div class="flex-container">
+
+                <div class="flex-item footer-column box">
+                    <a href="index.html"><img src="resources/img/logo.svg" alt=""></a>
+                    <p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment... ...</p>
+                    <div class="footer-menu">
+                        <ul>
+                            <li><a href="#"><img src="resources/img/icons/twitter.svg" alt=""></a></li>
+                            <li><a href="#"><img src="resources/img/icons/facebook.svg" alt=""></a></li>
+                            <li><a href="#"><img src="resources/img/icons/github.svg" alt=""></a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    <!-- END FOOTER SECTION -->
+
+    <!-- START COPYRIGHT SECTION -->
+    <div class="copyright-section">
+        <div class="row">
+            <p>&#9400; 2021. All rights reserved by <a href="https://trinoq.com" target="blank">Trinoq Technology</a></p>
+        </div>
+    </div>
+    <!-- END COPYRIGHT SECTION -->
+
+
+    <!-- JQUERY JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Html5 Shiv JS  -->
+    <script src="vendors/js/html5shiv.min.js"></script>
+    <!-- WAYPOINTS For STICKY MENU JS  -->
+    <script src="vendors/js/waypoints.min.js"></script>
+    <!-- Main JS  -->
+    <script src="resources/js/main.js"></script>    
+</body>
+</html>

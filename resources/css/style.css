@@ -1,0 +1,1126 @@
+/*======================================================*/
+ /***  Style CSS    ***/
+ /***  TRINOQ BLOGS    ***/
+/*======================================================*/
+
+/*======================================================*/
+ /***  HEADER SECTION CSS STYLE     ***/
+/*======================================================*/
+
+.header-section .row {
+  position: relative;
+  margin-top: 8rem;
+}
+.header-section .flex-container{
+  justify-content: space-between;
+}
+
+/*======== MAIN NAVIGATION ============================*/
+
+.main-nav {
+  text-align: left;
+}
+.main-nav ul li {
+  display: inline-block;
+  margin-right: 1rem;
+  position: relative;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #202040;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  padding: 0.5rem 1.6rem;
+  line-height: 2.3rem;
+  letter-spacing: 0.12em;
+}
+
+.main-nav ul li img {
+  width: 3rem;
+  height: auto;
+}
+
+/*======== DROPDOWN MENU ============================*/
+.main-nav ul li ul{
+  position: absolute;
+  top: 100%;
+  min-width: 20rem;
+  left: -1.6rem;
+  text-align: left;
+  display: none;
+}
+.main-nav ul li:hover ul{
+  display: block;
+}
+
+.main-nav ul li ul li a:link,
+.main-nav ul li ul li a:visited {
+  padding-top: 1.5rem;
+}
+
+/* .main-nav ul li .dropown-menu li a:link,
+.main-nav ul li .dropown-menu li a:visited{
+  padding: 0;
+} */
+
+
+/*======== LOGO ============================*/
+
+.logo {
+  height: auto;
+  text-align: center;
+}
+.logo img {
+  width: 18.2rem;
+  height: auto;
+}
+
+/*======== SIGN IN / SIGN UP ============================*/
+
+.account {
+  float: right;
+  text-align: right;
+}
+.account img {
+  width: auto;
+  height: auto;
+}
+.account a {
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block;
+  color: #202040;
+  font-size: 1.8rem;
+  line-height: 2.3rem;
+  letter-spacing: 0.12em;
+  padding: 0 1.6rem;
+}
+
+/*===== STICKY MENU =====*/
+.js--sticky-header{
+  height: 0rem;
+}
+
+.sticky .row{
+  margin-top: 0;
+}
+
+.sticky{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  /*background: rgba(135, 80, 156, 0.9);
+  */background: #f2f4fb;
+  padding: 0;
+  padding-top: 1rem;
+  box-shadow: 0 .2rem .5rem rgba(255, 255, 255, 0.9);
+  z-index: 999999;
+  transition: .5s;
+  -webkit-transition: .5s;
+  -moz-transition: .5s;
+  -ms-transition: .5s;
+  -o-transition: .5s;
+}
+
+/*======== MOBILE MENU ============================*/
+.mobile-menu span{
+  position: absolute;
+  top: 25%;
+  right: 2rem;
+  display: none;
+}
+.mobile-menu span img{
+  width: 4rem;
+}
+.mobile-menu span:hover{
+  cursor: pointer;
+}
+
+.overlay{
+  width: 0%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.9);
+  overflow-x: hidden;
+  z-index: 9;
+
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+.overlay-content{
+  position: relative;
+  top: 15%;
+  width: 100%;
+  text-align: center;
+}
+.overlay-content a{
+  text-decoration: none;
+  display: block;
+  font-size: 3rem;
+  color: #999999;
+  text-transform: uppercase;
+  letter-spacing: .3rem;
+  padding: 1rem 0;
+}
+.overlay-content a:hover{
+  color: #ffffff;
+}
+.overlay .close-nav{
+  position: absolute;
+  top: 0rem;
+  right: 1.5rem;
+  text-decoration: none;
+  font-size: 6rem;
+  color: #999999;
+}
+.sticky .mobile-menu span{
+  margin-top: 0rem;
+  line-height: 0.9;
+}
+
+
+/*======================================================*/
+ /***  Featured Section  CSS STYLE    ***/
+/*======================================================*/
+
+.featured-section .flex-container {
+  width: 90%;
+  margin: 0 auto;
+  align-items: flex-start;
+  position: relative;
+}
+.featured-section .flex-item {
+  flex: 16%;
+  max-width: 36%;
+  margin: 0 2%;
+  margin-top: 2rem;
+  padding: 2rem;
+  
+
+  border-radius: 3.7rem;
+  -webkit-border-radius: 3.7rem;
+  -moz-border-radius: 3.7rem;
+  -ms-border-radius: 3.7rem;
+  -o-border-radius: 3.7rem;
+}
+.featured-section .flex-container .flex-item:nth-child(2) {
+  background: #c3eaff;
+}
+.featured-section .flex-container .flex-item:nth-child(3) {
+  background: #c3ffd4;
+}
+.featured-section .flex-container .flex-item:nth-child(4) {
+  background: #ffcec3;
+}
+.featured-section .flex-container .flex-item:nth-child(5) {
+  background: #c4c3ff;
+}
+.featured-section .flex-container .flex-item:nth-child(6) {
+  background: #ffc3e7;
+}
+.featured-section .flex-container .flex-item:nth-child(7) {
+  background: #ffc3e7;
+  display: none;
+}
+
+.featured-section h2 {
+  position: absolute;
+  top: 50%;
+  left: -6.5rem;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  text-align: center;
+  font-weight: 500;
+  letter-spacing: 0.7em;
+
+  transform: rotate(270deg);
+  -webkit-transform: rotate(270deg);
+  -moz-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+}
+
+.featured-section .flex-item .square-photo .square-photo-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 2.5rem;
+  -webkit-border-radius: 2.5rem;
+  -moz-border-radius: 2.5rem;
+  -ms-border-radius: 2.5rem;
+  -o-border-radius: 2.5rem;
+}
+
+.featured-section .flex-item .post-title {
+  margin-top: 1.5rem;
+  font-size: 2.2rem;
+  font-weight: 700;
+  max-height: 5.72rem;
+  overflow: hidden;
+}
+.featured-section .flex-item .post-author {
+  display: block;
+  margin-top: 1rem;
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+
+/*======================================================*/
+ /***  Latest Post Section  CSS STYLE    ***/
+/*======================================================*/
+
+.latest-post-section .flex-container {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+}
+.latest-post-section .flex-item {
+  flex: 38%;
+  max-width: 54%;
+  margin: 0 2%;
+  margin-top: 3rem;
+}
+
+.latest-post-section h2 {
+  position: absolute;
+  top: 50%;
+  left: -8rem;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  text-align: center;
+  font-weight: 500;
+  letter-spacing: 0.7em;
+  z-index: 9;
+
+  transform: rotate(270deg);
+  -webkit-transform: rotate(270deg);
+  -moz-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+}
+
+.latest-post-section .square-photo .square-photo-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 3.5rem;
+  -webkit-border-radius: 3.5rem;
+  -moz-border-radius: 3.5rem;
+  -ms-border-radius: 3.5rem;
+  -o-border-radius: 3.5rem;
+}
+
+.latest-post-section .post-details .tags ul {
+  margin-top: 1rem;
+}
+.latest-post-section .post-details .tags ul li {
+  display: inline-block;
+  padding-right: 1rem;
+  margin-top: 1rem;
+}
+.latest-post-section .post-details .tags ul li a {
+  display: block;
+  background: #ffffff;
+  font-size: 1rem;
+  padding: 0.7rem 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.27rem;
+  border-radius: 2.5rem;
+  -webkit-border-radius: 2.5rem;
+  -moz-border-radius: 2.5rem;
+  -ms-border-radius: 2.5rem;
+  -o-border-radius: 2.5rem;
+}
+.latest-post-section .post-details .post-title {
+  margin-top: 1rem;
+  font-size: 5.4rem;
+  max-height: 14.04rem;
+  overflow: hidden;
+}
+.latest-post-section .post-details p {
+  font-size: 1.8rem;
+  font-weight: 500;
+  max-height: 9.36rem;
+  overflow: hidden;
+}
+.latest-post-section .post-details .post-author {
+  margin-top: 2rem;
+}
+.latest-post-section .post-details .post-author img {
+  float: left;
+  width: 5rem;
+  height: 5rem;
+  object-fit: cover;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.latest-post-section .post-details .post-author .post-author-details {
+  float: left;
+  padding: 0 1rem;
+}
+.latest-post-section .post-details .post-author .post-author-details h4,
+.latest-post-section .post-details .post-author .post-author-details span {
+  font-size: 1.8rem;
+}
+
+
+/*======================================================*/
+ /***  POSTS SECTION CSS STYLE    ***/
+/*======================================================*/
+
+.posts-section .flex-container {
+  width: 80%;
+  margin: 0 auto;
+  align-items: flex-start;
+}
+
+.posts-section .flex-item {
+  flex: 29%;
+  max-width: 29%;
+  margin: 0 2%;
+  margin-top: 4rem;
+
+  border-radius: 2.5rem;
+  -webkit-border-radius: 2.5rem;
+  -moz-border-radius: 2.5rem;
+  -ms-border-radius: 2.5rem;
+  -o-border-radius: 2.5rem;
+}
+
+.posts-section .flex-item:nth-child(1) {
+  background: #c3ffd4;
+}
+.posts-section .flex-item:nth-child(2) {
+  background: #ffc3e7;
+}
+.posts-section .flex-item:nth-child(3) {
+  background: #c4c3ff;
+}
+
+.posts-section .flex-item:nth-child(4) {
+  background: #ebe1c8; 
+}
+.posts-section .flex-item:nth-child(5) {
+  background: #c3eaff;
+}
+
+.posts-section .flex-item:nth-child(4),
+.posts-section .flex-item:nth-child(5) {
+  flex: 45%;
+  max-width: 45%;
+  margin: 0 2.5%;
+  margin-top: 4rem;
+}
+.posts-section .flex-item:nth-child(4) .square-photo,
+.posts-section .flex-item:nth-child(5) .square-photo {
+  position: relative;
+  width: 100%;
+  padding-top: 60%;
+}
+
+.posts-section .flex-item .post-details {
+  padding: 3rem;
+}
+.posts-section .post-title {
+  margin-bottom: 1rem;
+  font-size: 3.2rem;
+  max-height: 8.32rem;
+  overflow: hidden;
+}
+.posts-section .post-author {
+  margin-bottom: 2rem;
+  display: block;
+  font-size: 1.8rem;
+}
+.posts-section .flex-item li {
+  display: inline-block;
+  padding-right: 1rem;
+  margin-top: 1rem;
+}
+
+.posts-section .flex-item li a {
+  display: block;
+  background: rgba(0, 0, 0, 0.1);
+  font-size: 1rem;
+  padding: 0.7rem 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.27rem;
+  border-radius: 2.5rem;
+  -webkit-border-radius: 2.5rem;
+  -moz-border-radius: 2.5rem;
+  -ms-border-radius: 2.5rem;
+  -o-border-radius: 2.5rem;
+}
+
+.posts-section .flex-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 2.5rem 2.5rem 0 0;
+  -webkit-border-radius: 2.5rem 2.5rem 0 0;
+  -moz-border-radius: 2.5rem 2.5rem 0 0;
+  -ms-border-radius: 2.5rem 2.5rem 0 0;
+  -o-border-radius: 2.5rem 2.5rem 0 0;
+}
+
+
+/*======== THIRD ROW, LOAD MORE POST BUTTON ============================*/
+
+.posts-section .second-row {
+  margin-top: 1rem;
+}
+.posts-section .second-row .load-more-btn {
+  margin: 3rem auto;
+  text-align: center;
+}
+.posts-section .second-row .load-more-btn .btn {
+  background: #202040;
+  color: #f2f4fb;
+  font-size: 2.2rem;
+  font-weight: 700;
+  padding: 2rem 3rem;
+}
+
+
+/*======================================================*/
+ /***  TRENDY TAGS SECTION    ***/
+/*======================================================*/
+
+.trendy-tags-section .row {
+  text-align: center;
+}
+.trendy-tags-section h2 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.4rem;
+  margin-bottom: 2rem;
+}
+.trendy-tags-section .flex-container {
+  width: 100%;
+  max-width: 48rem;
+  justify-content: center;
+  margin: 0 auto;
+}
+.trendy-tags-section .flex-container .flex-item {
+  background: #ffffff;
+  color: #202040;
+  font-size: 1rem;
+  text-transform: uppercase;
+  padding: 1rem 1.5rem;
+  margin: 0 0.75rem;
+  margin-bottom: 1.5rem;
+  flex: 0 0 0;
+  letter-spacing: 0.27rem;
+
+  border-radius: 2.5rem;
+  -webkit-border-radius: 2.5rem;
+  -moz-border-radius: 2.5rem;
+  -ms-border-radius: 2.5rem;
+  -o-border-radius: 2.5rem;
+}
+
+
+/*======================================================*/
+ /***  SUBSCRIBTION SECTION     ***/
+/*======================================================*/
+
+.subscribtion-section form .flex-container {
+  width: 80%;
+  margin: 0 auto;
+}
+.subscribtion-section .flex-item {
+  margin: 0;
+  padding: 1rem 0;
+}
+
+.subscribtion-section .flex-item:nth-child(1) {
+  text-align: left;
+  flex: 59%;
+  max-width: 59%;
+}
+.subscribtion-section .flex-item:nth-child(2) {
+  text-align: right;
+  flex: 40%;
+  max-width: 40%;
+}
+.subscribtion-section .flex-item h2 {
+  font-size: 3vw;
+  font-weight: 700;
+  margin: 1.5rem 0;
+}
+
+.subscribtion-section form .flex-container .email-box {
+  position: relative;
+  display: block;
+}
+.subscribtion-section form .flex-container .email-box input {
+  width: 100%;
+  min-width: 29rem;
+  background: #202040;
+  border: 0.1rem solid #202040;
+  padding: 3rem 1.5rem;
+  padding-right: 14.5rem;
+  font-size: 2.2rem;
+  color: #f2f4fb;
+
+  border-radius: 5rem;
+  -webkit-border-radius: 5rem;
+  -moz-border-radius: 5rem;
+  -ms-border-radius: 5rem;
+  -o-border-radius: 5rem;
+}
+.subscribtion-section form .flex-container .email-box .btn-box .btn {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  bottom: 1rem;
+  padding: 1rem;
+  background: #f2f4fb;
+  border: 0;
+  color: #202040;
+  font-size: 2.2rem;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+
+/*======================================================*/
+ /***  SUBSCRIBTION 2 SECTION     ***/
+/*======================================================*/
+
+.subscribtion2-section .flex-container {
+  width: 80%;
+  margin: 0 auto;
+}
+.subscribtion2-section .flex-item {
+  margin: 0;
+  padding: 1rem 0;
+}
+.subscribtion2-section .flex-container::after {
+  content: "";
+  display: block;
+  width: 100%;
+  border: 1px solid #c4c4c4;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+.subscribtion2-section .flex-item:nth-child(1) {
+  text-align: left;
+  flex: 59%;
+  max-width: 59%;
+}
+.subscribtion2-section .flex-item:nth-child(2) {
+  text-align: right;
+  flex: 40%;
+  max-width: 40%;
+}
+.subscribtion2-section .flex-item h2 {
+  font-size: 3vw;
+  font-weight: 700;
+}
+
+.subscribtion2-section form .flex-container .email-box {
+  display: block;
+  background: #202040;
+  border: 0.1rem solid #202040;
+  padding: 1rem;
+  padding-left: 2rem;
+  overflow: auto;
+  min-width: 29rem;
+  border-radius: 5rem;
+  -webkit-border-radius: 5rem;
+  -moz-border-radius: 5rem;
+  -ms-border-radius: 5rem;
+  -o-border-radius: 5rem;
+}
+
+.subscribtion2-section form .flex-container .email-box .btn-box {
+  float: right;
+  padding: 0;
+  text-align: right;
+}
+.subscribtion2-section form .flex-container .email-box .btn-box .btn {
+  background: #f2f4fb;
+  color: #202040;
+  border: 0;
+  padding: 2rem 1rem;
+  color: #202040;
+  font-size: 2.2rem;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.subscribtion2-section form .flex-container .email-box .email-input input {
+  float: left;
+  background: #202040;
+  border: 0 solid;
+  padding: 2rem 0;
+  font-size: 2.2rem;
+  color: #f2f4fb;
+  width: 50%;
+}
+
+
+/*======================================================*/
+ /***  FOOTER SECTION     ***/
+/*======================================================*/
+
+.footer-section .flex-container {
+  width: 80%;
+  margin: 0 auto;
+  justify-content: flex-start;
+}
+
+.footer-section .flex-container::before {
+  content: "";
+  display: block;
+  width: 100%;
+  border: 1px solid #c4c4c4;
+  margin: auto;
+  margin-top: 2rem;
+}
+.footer-section .flex-container .flex-item {
+  flex: 49%;
+  max-width: 49%;
+  margin: 0;
+}
+.footer-section .footer-column img {
+  width: 18.2rem;
+  height: auto;
+}
+.footer-section .footer-column p {
+  font-size: 1.8rem;
+  font-weight: 500;
+  padding-right: 1rem;
+  margin-top: 1rem;
+}
+.footer-section .footer-menu ul li {
+  display: inline-block;
+  margin: 2rem 0;
+  margin-right: 2rem;
+}
+.footer-section .footer-menu ul li a {
+  display: block;
+  text-decoration: none;
+}
+.footer-section .footer-menu ul li a img {
+  width: auto;
+  height: 2rem;
+}
+
+
+/*======================================================*/
+ /***  COPYRIGHT SECTION     ***/
+/*======================================================*/
+
+.copyright-section {
+  padding: 1rem 0;
+  text-align: center;
+  border-top: 0.1rem solid rgba(0, 0, 0, 0.1);
+}
+
+.copyright-section p {
+  color: #202040;
+  font-size: 1.4rem;
+  letter-spacing: 0.12rem;
+  margin: 0;
+}
+.copyright-section a {
+  text-decoration: none;
+  color: #202040;
+  font-size: 1.4rem;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.copyright-section a:hover {
+  color: #702fff;
+}
+
+
+/*======================================================*/
+ /***  CONTACT PAGE STYLE    ***/
+ /***  CONTACT SECTION CSS    ***/
+/*======================================================*/
+.contact-section {
+  padding-top: 10rem;
+}
+
+.contact-section .flex-container {
+  width: 60%;
+  margin: 0 auto;
+  align-items: flex-start;
+}
+
+.contact-section .flex-item {
+  flex: 50%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.contact-section .section-title h2{
+  font-size: 3.2rem;
+  font-weight: 700;
+}
+
+.contact-section .square-photo .square-photo-box {
+  padding: 3rem;
+}
+.contact-section .square-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+  border-radius: 2.5rem;
+  -webkit-border-radius: 2.5rem;
+  -moz-border-radius: 2.5rem;
+  -ms-border-radius: 2.5rem;
+  -o-border-radius: 2.5rem;
+}
+
+.contact-section form {
+  text-align: center;
+}
+
+.contact-section form input[type="text"],
+.contact-section form input[type="email"],
+.contact-section form textarea {
+  background: #ffffff;
+  border: 0.1rem solid #ffffff;
+  width: 100%;
+  padding: 1.5rem;
+  margin: 0;
+  margin-top: 3rem;
+  font-size: 1.8rem;
+  color: #202040;
+
+  border-radius: 4.65rem;
+  -webkit-border-radius: 4.65rem;
+  -moz-border-radius: 4.65rem;
+  -ms-border-radius: 4.65rem;
+  -o-border-radius: 4.65rem;
+}
+.contact-section form textarea {
+  border: 8px solid rgba(218, 218, 218, 0.5);
+  border-radius: 2.6rem;
+  -webkit-border-radius: 2.6rem;
+  -moz-border-radius: 2.6rem;
+  -ms-border-radius: 2.6rem;
+  -o-border-radius: 2.6rem;
+}
+.contact-section form .btn-submit {
+  background: #202040;
+  color: #f2f4fb;
+  font-size: 2.2rem;
+  font-weight: 700;
+  padding: 2.4rem 3rem;
+  margin: 0;
+  margin-top: 3rem;
+  border: 0.1rem solid #202040;
+  border-radius: 5rem;
+  -webkit-border-radius: 5rem;
+  -moz-border-radius: 5rem;
+  -ms-border-radius: 5rem;
+  -o-border-radius: 5rem;
+}
+
+/*======================================================*/
+ /***  All Posts PAGE  CSS STYLE    ***/
+/*======================================================*/
+/*======================================================*/
+ /***  SEARCH BAR SECTION  CSS STYLE    ***/
+/*======================================================*/
+.search_container {
+  position: relative;
+  max-width: 35rem;
+  margin: 0 auto;
+  text-align: center;
+}
+  
+.search_input {
+  width: 100%;
+  padding: 1.2rem 2.2rem;
+  background: #FFFFFF;
+  font-size: 2.2rem;
+  color: #202040;
+
+
+  border: 1px solid #ffffff;
+  transition: all 250ms ease-in-out;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+
+  border-radius: 5rem;
+  -webkit-border-radius: 5rem;
+  -moz-border-radius: 5rem;
+  -ms-border-radius: 5rem;
+  -o-border-radius: 5rem;
+}
+
+.searchButton{
+  position: absolute;
+  top: 1.2rem;
+  right: 1.2rem;
+  background: transparent;
+  border: .1rem solid transparent;
+  cursor: pointer;
+}
+.searchButton img{
+  width: 2.6rem;
+  height: 2.6rem;
+}
+.search_input:hover,
+.search_input:focus {
+  padding: 1.2rem 1.2rem;
+  outline: 0;
+}
+
+
+/*======================================================*/
+ /***  ALL POSTS Section  CSS STYLE    ***/
+/*======================================================*/
+.posts-section .title{
+  width: 80%;
+  text-align: right;
+  margin: 0 auto;
+  margin-top: 6rem;
+  padding-right: 2%;
+}
+.posts-section .title h1{
+  letter-spacing: 1rem;
+  text-transform: uppercase;
+}
+.Categories-section .flex-container {
+  width: 90%;
+  margin: 0 auto;
+  align-items: flex-start;
+  position: relative;
+}
+
+.Categories-section .flex-item {
+  flex: 16%;
+  max-width: 16%;
+  margin: 0 2%;
+  margin-top: 5rem;
+  background: #ffffff;
+  cursor: pointer;
+
+  border-radius: 3.7rem;
+  -webkit-border-radius: 3.7rem;
+  -moz-border-radius: 3.7rem;
+  -ms-border-radius: 3.7rem;
+  -o-border-radius: 3.7rem;
+}
+
+.Categories-section .box{
+  padding: 0;
+}
+
+.Categories-section h2 {
+  position: absolute;
+  top: 50%;
+  left: -8.5rem;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  text-align: center;
+  font-weight: 500;
+  letter-spacing: 0.7em;
+
+  transform: rotate(270deg);
+  -webkit-transform: rotate(270deg);
+  -moz-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+}
+
+.Categories-section .flex-item .square-photo .square-photo-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  padding: 2.4rem;
+
+  border-radius: 4rem;
+  -webkit-border-radius: 4rem;
+  -moz-border-radius: 4rem;
+  -ms-border-radius: 4rem;
+  -o-border-radius: 4rem;
+}
+
+.category-details{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: #ffffff;
+  width: 70%;
+  padding-left: 2.5rem;
+  padding-bottom: 2.4rem;
+  padding-top: 2rem;
+
+  border-radius: 2.5rem;
+  -webkit-border-radius: 2.5rem;
+  -moz-border-radius: 2.5rem;
+  -ms-border-radius: 2.5rem;
+  -o-border-radius: 2.5rem;
+}
+
+.Categories-section .flex-item .category-title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #202040;
+}
+.Categories-section .flex-item .category-posts-number {
+  display: block;
+  margin-top: .7rem;
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: #c4c4c4;
+}
+
+/*======================================================*/
+ /***  SINGLE Posts PAGE  CSS STYLE    ***/
+/*======================================================*/
+/*======================================================*/
+ /***  Single Posts Section  CSS STYLE    ***/
+/*======================================================*/
+.single-post-section .flex-container {
+  width: 70%;
+  margin: 0 auto;
+}
+.single-post-section .flex-item {
+  flex: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+}
+.single-post p {
+  flex: 80%;
+  max-width: 80%;
+  margin: 0 auto;
+  margin-top: 2rem;
+  font-size: 2.2rem;
+  line-height: 3.5rem;
+}
+.single-post h3 {
+  flex: 80%;
+  max-width: 80%;
+  margin: 0 auto;
+  margin-top: 2rem;
+  font-size: 3.2rem;
+}
+.single-post .post-photo{
+  width: 100%;
+  height: 40rem;
+  margin-top: 2rem;
+  overflow: hidden;
+  
+  border-radius: 2.5rem;
+  -webkit-border-radius: 2.5rem;
+  -moz-border-radius: 2.5rem;
+  -ms-border-radius: 2.5rem;
+  -o-border-radius: 2.5rem;
+}
+.single-post .post-photo img{
+  width: 100%;
+  object-fit: cover;
+  border-radius: 2.5rem;
+  -webkit-border-radius: 2.5rem;
+  -moz-border-radius: 2.5rem;
+  -ms-border-radius: 2.5rem;
+  -o-border-radius: 2.5rem;
+}
+
+/*======================================================*/
+ /***  Latest Post Section  CSS STYLE    ***/
+/*======================================================*/
+
+.more-posts-section .flex-container {
+  width: 70%;
+  margin: 0 auto;
+  position: relative;
+}
+.more-posts-section .flex-item {
+  flex: 44%;
+  max-width: 44%;
+  background: #C3EAFF;
+  margin: 0 3%;
+  margin-top: 3rem;
+
+  border-radius: 3.5rem;
+  -webkit-border-radius: 3.5rem;
+  -moz-border-radius: 3.5rem;
+  -ms-border-radius: 3.5rem;
+  -o-border-radius: 3.5rem;
+}
+.more-posts-section .flex-item:nth-child(1) {
+  flex: 100%;
+  max-width: 100%;
+  background: transparent;
+}
+
+.more-posts-section .iner-flex-container {
+  display: flex;
+  align-items: center;
+}
+.more-posts-section .iner-flex-item {
+  flex: 50%;
+  max-width: 50%;
+  padding: 3%;
+}
+
+.more-posts-section h2 {
+  position: absolute;
+  top: 50%;
+  left: -8rem;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  text-align: center;
+  font-weight: 500;
+  letter-spacing: 0.7em;
+  z-index: 9;
+
+  transform: rotate(270deg);
+  -webkit-transform: rotate(270deg);
+  -moz-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+}
+
+.more-posts-section .square-photo .square-photo-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 2.5rem;
+  -webkit-border-radius: 2.5rem;
+  -moz-border-radius: 2.5rem;
+  -ms-border-radius: 2.5rem;
+  -o-border-radius: 2.5rem;
+}
+
+.more-posts-section .post-details .post-title {
+  margin-top: 1rem;
+  font-size: 2.2rem;
+  max-height: 5.6rem;
+  overflow: hidden;
+}
+
+.more-posts-section .post-details .post-author {
+  font-size: 1.8rem;
+  font-weight: 400;
+  margin-top: 2rem;
+}
+
+
